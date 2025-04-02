@@ -64,6 +64,11 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color: #fff; /* Cor branca para melhor visibilidade */
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Rodapé */
