@@ -60,16 +60,17 @@ li {
 a {
     color: #ff7eb3;
     text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 a:hover {
     text-decoration: underline;
-    color: #fff; 
+    color: #ffccdd; 
+    background-color: rgba(255, 255, 255, 0.2); 
+    padding: 2px 5px;
+    border-radius: 5px;
 }
 
-a:hover {
-    text-decoration: underline;
-}
 
 /* Rodapé */
 footer {
