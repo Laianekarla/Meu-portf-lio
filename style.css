@@ -23,6 +23,7 @@ header {
     margin: 15px auto;
     border: 3px solid #fff;
     box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
+    object-fit: cover;
 }
 
 /* Container */
