@@ -1,121 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio - Laiane Karla</title>
-    <link rel="stylesheet" href="style.css">
-
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600&display=swap');
-
-        body {
-            font-family: 'Fira Sans', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #121212;
-            color: #ffffff;
-        }
-        header {
-            background: #ff007f;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            font-size: 1.5em;
-            font-weight: 600;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            padding: 20px;
-            background: #1e1e1e;
-            box-shadow: 0 0 10px rgba(255, 0, 127, 0.5);
-            border-radius: 10px;
-            margin-top: 20px;
-        }
-        h1, h2 {
-            color: #ff007f;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            background: #292929;
-            margin: 10px 0;
-            padding: 10px;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-        li:hover {
-            background: #ff007f;
-            color: #121212;
-        }
-        a {
-            color: #ff007f;
-            text-decoration: none;
-            font-weight: 600;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #ff007f;
-            color: white;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-
-<header>
-    <h1>Laiane Karla</h1>
-    <img src="minha-foto.jpg" alt="Foto de Laiane Karla" class="profile-photo">
-<p>Quality Assurance (QA) | Testes de Software</p>
-</header>
-
-<div class="container">
-    <h2>Sobre Mim</h2>
-    <p>Sou QA na NTT Data há quase 3 anos, atuando no cliente Bradesco Tenho experiência em testes de páginas web, APIs e atualmente trabalho com testes em mainframe.</p>
-
-    <h2>Experiência</h2>
-    <ul>
-        <li>Testes para a proposta 4966 do Banco Central.</li>
-        <li>Atuei em uma squad focada em base de dados, realizando testes SQL e validações em banco de dados</li>
-        <li>Ferramentas de testes: Octane e Xray.</li>
-        <li>Uso diário de Jira e Confluence.</li>
-        <li>Responsável por geração de massas de dados para testes.</li>
-        <li>Experiência com testes regressivos, end-to-end, integração e testes de API.</li>
-    </ul>
-
-    <h2>Automação de Testes</h2>
-    <p>Atualmente aprimorando conhecimentos em Cypress e desenvolvendo duas POCs:</p>
-    <ul>
-        <li>Automação do Snake Game usando Cypress.</li>
-        <li>Automação do sistema bancário Parabank.</li>
-    </ul>
-
-    <h2>Formação e Certificações</h2>
-<ul>
-    <li>Estudando Análise e Desenvolvimento de Sistemas.</li>
-    <li>
-        <a href="https://github.com/Laianekarla/Meu-portf-lio/blob/main/certificate.pdf" target="_blank">
-            Certificação de inglês intermediário (listening, speaking e escrita).
-        </a>
-    </li>
-</ul>
-
-
-     <h2>Contato</h2>
+    <header>
+        <img src="profile.jpg" alt="Foto de Perfil" class="profile-photo">
+        <h1>Laiane Karla</h1>
+        <p>Analista de Qualidade | Testes Manuais & Automatizados</p>
+    </header>
+    
+    <div class="container">
+        <h2>Sobre Mim</h2>
+        <p>Sou Analista de Qualidade com experiência em testes manuais e automação de testes. Atualmente estou estudando Cypress para aprimorar meus conhecimentos em testes automatizados.</p>
+        
+        <h2>Habilidades</h2>
+        <table>
+            <tr>
+                <th>Habilidade</th>
+                <th>Nível</th>
+            </tr>
+            <tr>
+                <td><i class="fas fa-database"></i> SQL</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-bug"></i> Testes Manuais</td>
+                <td>⭐⭐⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td><i class="fas fa-cogs"></i> Cypress</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+        </table>
+        
+        <h2>Projetos e Experimentos</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="test-automation.png" alt="Testes Automatizados">
+                <p>Automação de testes de login no sistema Parabank utilizando Cypress.</p>
+            </div>
+            <div class="project">
+                <img src="sql-validation.png" alt="SQL Tests">
+                <p>Execução de testes SQL para validação de dados em banco de dados.</p>
+            </div>
+        </div>
+        
+       <h2>Contato</h2>
     <p>Email: <a href="mailto:seuemail@gmail.com">lannekarla03@gmail.com</a></p>
    <p>LinkedIn: <a href="https://www.linkedin.com/in/laiane-silva-781134195/" target="_blank">https://www.linkedin.com/in/laiane-silva-781134195/</a></p>
+        <p>Certificação: <a href="certificate.pdf" target="_blank">Certificado de Inglês</a></p>
 </div>
-
-<footer>
-    <p>© 2025 Laiane Karla | Portfólio QA</p>
-</footer>
-
+    
+    <footer>
+        <p>&copy; 2025 Laiane Karla. Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
