@@ -80,7 +80,36 @@ a:hover {
     border-radius: 5px;
 }
 
+/* Estilização da tabela de habilidades */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+    background: #3a3a3a;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
 
+th, td {
+    padding: 12px;
+    border: 1px solid #555;
+}
+
+th {
+    background-color: #ff7eb3;
+    color: white;
+}
+
+td {
+    color: #fff;
+    font-size: 18px;
+}
+
+tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
 
 /* Rodapé */
 footer {
