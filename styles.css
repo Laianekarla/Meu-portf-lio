@@ -31,7 +31,7 @@ h1 {
 
 p {
     font-size: 16px;
-    color: #F5F5F5; /* Alterei para branco para melhor legibilidade */
+    color: #F5F5F5; 
 }
 
 .container {
@@ -124,6 +124,18 @@ h2 {
     text-shadow: 0px 0px 8px #F8BBD0;
 }
 
+/* Estilização dos links em Projetos Pessoais */
+.projects-list a {
+    color: #F8BBD0;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.projects-list a:hover {
+    color: #D81B60;
+    text-shadow: 0px 0px 8px #F8BBD0;
+}
 
 
 
