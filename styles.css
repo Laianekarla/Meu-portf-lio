@@ -110,19 +110,21 @@ h2 {
     color: #ff69b4;
     font-size: 22px;
 }
-
 /* Link do certificado */
 .formacao-item a {
     color: #F8BBD0;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
 }
 
 .formacao-item a:hover {
-    color: #D81B60;
-    text-shadow: none; 
-    transform: none; 
+    background-color: #D81B60; 
+    text-shadow: none;
+    transform: scale(1.05);
 }
 
 /* Estilização dos links em Projetos Pessoais */
@@ -130,16 +132,17 @@ h2 {
     color: #F8BBD0;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 6px;
 }
 
 .projects-list a:hover {
-    color: #D81B60;
-    text-shadow: none; 
-    transform: none; 
+    background-color: #D81B60; 
+    text-shadow: none;
+    transform: scale(1.05);
 }
-
-
 
 
 footer {
