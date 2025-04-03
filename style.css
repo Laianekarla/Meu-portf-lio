@@ -81,35 +81,34 @@ a:hover {
 }
 
 /* Estilização da tabela de habilidades */
+/* Ajuste da tabela de habilidades */
 table {
-    width: 80%;
-    margin: 20px auto;
+    width: 100%;
     border-collapse: collapse;
     text-align: center;
-    background: #3a3a3a;
-    border-radius: 10px;
-    overflow: hidden;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
 }
 
 th, td {
-    padding: 12px;
-    border: 1px solid #555;
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
 th {
-    background-color: #ff7eb3;
-    color: white;
+    background-color: #f4f4f4;
+    color: black;
 }
 
+/* Removendo os ícones e estrelas */
+td i {
+    display: none;
+}
+
+/* Centralizando o texto nas células */
 td {
-    color: #fff;
     font-size: 18px;
+    font-weight: bold;
 }
 
-tr:nth-child(even) {
-    background-color: #2a2a2a;
-}
 
 /* Rodapé */
 footer {
