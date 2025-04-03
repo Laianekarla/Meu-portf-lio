@@ -116,12 +116,13 @@ h2 {
     color: #F8BBD0;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
+    transition: color 0.3s ease-in-out;
 }
 
 .formacao-item a:hover {
     color: #D81B60;
-    text-shadow: 0px 0px 8px #F8BBD0;
+    text-shadow: none; 
+    transform: none; 
 }
 
 /* Estilização dos links em Projetos Pessoais */
@@ -129,13 +130,15 @@ h2 {
     color: #F8BBD0;
     text-decoration: none;
     font-weight: bold;
-    transition: 0.3s;
+    transition: color 0.3s ease-in-out;
 }
 
 .projects-list a:hover {
     color: #D81B60;
-    text-shadow: 0px 0px 8px #F8BBD0;
+    text-shadow: none; 
+    transform: none; 
 }
+
 
 
 
