@@ -17,7 +17,11 @@ header {
 .name {
     color: #ff69b4; 
     font-weight: bold;
+    font-size: 24px; 
+    text-align: center; 
+    display: block;
 }
+
 
 
 /* Foto de perfil */
