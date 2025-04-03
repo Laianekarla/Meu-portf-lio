@@ -1,87 +1,48 @@
-/* Estilo geral */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
     margin: 0;
     padding: 0;
-    background-color: #1e1e1e;
-    color: #fff;
 }
 
-/* Estilização do cabeçalho */
 header {
-    background: linear-gradient(135deg, #ff7eb3, #ff758c);
     text-align: center;
     padding: 20px;
-}
-
-.name {
-    color: #ff007f; 
-    font-weight: bold;
-    font-size: 26px; 
-    text-align: center; 
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-
-
-/* Foto de perfil */
-.profile-photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 15px auto;
-    border: 3px solid #fff;
-    box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
-    object-fit: cover;
-}
-
-/* Container */
-.container {
-    width: 80%;
-    margin: auto;
-    padding: 20px;
-    background: #282828;
-    border-radius: 10px;
+    background: #1f1f1f;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
-/* Títulos */
-h1, h2 {
-    color: #ff7eb3;
-    text-align: center;
+.profile-photo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
 }
 
-/* Lista */
-ul {
-    list-style: none;
-    padding: 0;
+h1.name {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #ffffff;
 }
 
-li {
-    background: #3a3a3a;
-    margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
+p {
+    font-size: 16px;
+    margin: 5px 0;
 }
 
-/* Links */
-a {
-    color: #ff7eb3;
-    text-decoration: none;
-    transition: color 0.3s ease;
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-a:hover {
-    color: #ff7eb3; 
-    background-color: rgba(255, 255, 255, 0.2); 
-    padding: 3px;
-    border-radius: 5px;
+h2 {
+    border-bottom: 2px solid #ffffff;
+    padding-bottom: 5px;
+    margin-top: 20px;
 }
 
-/* Estilização da tabela de habilidades */
-/* Ajuste da tabela de habilidades */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -94,29 +55,7 @@ th, td {
 }
 
 th {
-    background-color: #f4f4f4;
-    color: black;
-}
-
-/* Removendo os ícones e estrelas */
-td i {
-    display: none;
-}
-
-/* Centralizando o texto nas células */
-td {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-
-/* Rodapé */
-footer {
-    text-align: center;
-    padding: 10px;
-    background: #ff7eb3;
-    color: white;
-    margin-top: 20px;
+    background-color: #333;
 }
 
 .formacao {
@@ -126,10 +65,7 @@ footer {
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-    width: 60%; /* Ajusta a largura para melhor alinhamento */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 80%;
 }
 
 .formacao p {
@@ -137,20 +73,54 @@ footer {
     color: #fff;
 }
 
-
-td:first-child i {
-    display: none;
+.tech-stack {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 15px;
+    justify-items: center;
+    padding: 20px;
 }
 
-td:nth-child(2) {
+.tech-stack div {
+    background: #1f1f1f;
+    padding: 10px;
+    border-radius: 8px;
     text-align: center;
-    font-weight: bold;
-    font-size: 16px;
+    width: 100px;
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-/* Centralizar o texto da primeira coluna */
-td:first-child {
+.tech-stack div:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.tech-stack i {
+    font-size: 24px;
+    color: #ffffff;
+}
+
+.projects-list a {
+    color: #76c7c0;
+    text-decoration: none;
+}
+
+.projects-list a:hover {
+    text-decoration: underline;
+}
+
+.contact-list a {
+    color: #76c7c0;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+footer {
     text-align: center;
+    padding: 10px;
+    background: #1f1f1f;
+    margin-top: 20px;
 }
-
-
