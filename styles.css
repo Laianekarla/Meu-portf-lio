@@ -27,7 +27,7 @@ h1 {
 
 p {
     font-size: 16px;
-    color: #F8BBD0;
+    color: #F5F5F5; /* Alterei para branco para melhor legibilidade */
 }
 
 .container {
@@ -38,20 +38,22 @@ p {
 
 section {
     background-color: #2C2C2C;
-    padding: 20px;
+    padding: 25px;
     margin-bottom: 20px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 10px rgba(255, 182, 193, 0.2);
+    border-radius: 12px;
+    box-shadow: 2px 2px 12px rgba(255, 182, 193, 0.3);
 }
 
 h2 {
     color: #D81B60;
+    text-transform: uppercase; /* Deixa os títulos em caixa alta */
+    letter-spacing: 1px;
 }
 
 .tech-stack div, .projects-list li, .contact-list li {
     display: inline-block;
     margin: 10px;
-    padding: 10px;
+    padding: 12px 15px;
     background-color: #3A3A3A;
     border-radius: 8px;
     transition: 0.3s;
@@ -65,12 +67,38 @@ h2 {
 .contact-list a {
     color: #F8BBD0;
     text-decoration: none;
+    font-weight: bold;
     transition: 0.3s;
 }
 
 .contact-list a:hover {
-    color: #D81B60;
+    color: #FFFFFF;
     text-shadow: 0px 0px 8px #F8BBD0;
+}
+
+/* Seção Formação */
+.formacao-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.formacao-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 18px;
+    background-color: #3A3A3A;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(255, 182, 193, 0.2);
+    width: fit-content;
+}
+
+.formacao-item i {
+    color: #ff69b4;
+    font-size: 22px;
 }
 
 footer {
@@ -78,4 +106,5 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
 
