@@ -1,121 +1,53 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js" crossorigin="anonymous"></script>
-    <style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: center;
-        }
-        th, td {
-            padding: 10px;
-            border: 1px solid #ddd;
-        }
-        th {
-            background-color: #f4f4f4;
-        }
-        
-        .formacao {
-            text-align: center;
-            margin: 20px auto;
-            background: #3a3a3a;
-            padding: 15px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-            width: 80%;
-        }
-        .formacao p {
-            font-size: 18px;
-            color: #fff;
-        }
-    </style>
+    <title>Portfólio - Laiane Karla</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <img src="minha-foto.jpg" alt="Foto de Perfil" class="profile-photo">
+        <img src="profile.jpg" alt="Foto de Perfil" class="profile-photo">
         <h1 class="name">Laiane Karla</h1>
-        <p>Analista de Qualidade | Testes Manuais & Automatizados</p>
+        <p>Analista de Qualidade | NTT Data | Cliente Bradesco</p>
+        <p>Atuação no projeto 4966 do Banco Central</p>
     </header>
-    
+
     <div class="container">
-        <h2>Sobre Mim</h2>
-        <p>Sou Analista de Qualidade com experiência em testes manuais e automação de testes. Atualmente estou estudando Cypress para aprimorar meus conhecimentos em testes automatizados.</p>
-        
-        <h2>Habilidades</h2>
-        <table>
-            <tr>
-                <th>Habilidade</th>
-                <th>Nível</th>
-            </tr>
-            <tr>
-                <td><i class="fas fa-database"></i> SQL</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><i class="fas fa-desktop"></i> Testes em Ambiente Mainframe</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><i class="fas fa-cloud"></i> Testes de API</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><i class="fas fa-globe"></i> Testes de Aplicações Web</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><i class="fas fa-random"></i> Testes de Integração</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><i class="fas fa-sync"></i> Testes Regressivos</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><i class="fas fa-network-wired"></i> Testes End-to-End</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><i class="fas fa-tools"></i> Ferramentas de Teste (Octane, Xray)</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><i class="fas fa-tasks"></i> Gestão de Projetos (Jira, Confluence)</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td><i class="fas fa-cogs"></i> Cypress</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-        </table>
-        
-        <h2>Formação Acadêmica</h2>
-        <div class="formacao">
-            <p><i class="fas fa-graduation-cap"></i> Cursando Análise e Desenvolvimento de Sistemas</p>
-            <p><i class="fas fa-file-alt"></i> Certificação: <a href="certificate.pdf" target="_blank" class="certification-link">Certificado de Inglês</a></p>
-        </div>
-        
-        <h2>Projetos e Experimentos</h2>
-        <ul class="projects-list">
-            <li><a href="#" target="_blank">Automação de testes de login no sistema Parabank</a></li>
-            <li><a href="#" target="_blank">Execução de testes SQL para validação de dados</a></li>
-        </ul>
-        
-        <h2>Contato</h2>
-        <ul class="contact-list">
-            <li><i class="fas fa-envelope"></i> Email: <a href="mailto:lannekarla03@gmail.com">lannekarla03@gmail.com</a></li>
-            <li><i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/laiane-silva-781134195/" target="_blank">Meu LinkedIn</a></li>
-        </ul>
+        <section class="formacao">
+            <h2>Formação e Certificações</h2>
+            <p>Cursando Análise e Desenvolvimento de Sistemas</p>
+            <p>Certificação CTFL - ISTQB</p>
+        </section>
+
+        <section>
+            <h2>Tech Stack</h2>
+            <div class="tech-stack">
+                <div><i class="fab fa-html5"></i><p>HTML</p></div>
+                <div><i class="fab fa-css3-alt"></i><p>CSS</p></div>
+                <div><i class="fab fa-js"></i><p>JavaScript</p></div>
+                <div><i class="fas fa-vial"></i><p>Testes Automatizados</p></div>
+                <div><i class="fab fa-git-alt"></i><p>Git</p></div>
+                <div><i class="fab fa-cypress"></i><p>Cypress</p></div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projetos</h2>
+            <ul class="projects-list">
+                <li><a href="https://github.com/Laianekarla/Automacao-Parabank" target="_blank">Automação Parabank</a></li>
+                <li><a href="https://github.com/Laianekarla/Automacao-Jogo-Cobrinha" target="_blank">Automação Jogo da Cobrinha</a></li>
+            </ul>
+        </section>
     </div>
-    
+
     <footer>
-        <p>&copy; 2025 Laiane Karla. Todos os direitos reservados.</p>
+        <p>Contato: <a href="mailto:seuemail@email.com">seuemail@email.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/laianekarla" target="_blank">/in/laianekarla</a></p>
     </footer>
 </body>
 </html>
+
 
