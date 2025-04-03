@@ -80,11 +80,8 @@ h2 {
     text-shadow: 0px 0px 8px #F8BBD0;
 }
 
-/* Ajuste no e-mail */
 .contact-list li {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     padding: 12px;
     background-color: #3A3A3A;
     border-radius: 8px;
@@ -96,14 +93,13 @@ h2 {
     transform: scale(1.05);
 }
 
-/* Garantindo que os links sejam clicáveis */
+/* Garante que o link seja sempre clicável */
 .contact-list a {
     color: #F8BBD0;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
-    width: 100%; /* Garante que o link ocupe toda a área do botão */
-    text-align: center;
+    padding: 8px 12px;
 }
 
 .contact-list a:hover {
