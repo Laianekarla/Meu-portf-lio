@@ -58,21 +58,6 @@ th {
     background-color: #333;
 }
 
-.formacao {
-    text-align: center;
-    margin: 20px auto;
-    background: #3a3a3a;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
-    width: 80%;
-}
-
-.formacao p {
-    font-size: 18px;
-    color: #fff;
-}
-
 .tech-stack {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
@@ -124,3 +109,4 @@ footer {
     background: #1f1f1f;
     margin-top: 20px;
 }
+
