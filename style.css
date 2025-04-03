@@ -15,11 +15,11 @@ header {
 }
 
 .name {
-    color: #e60073; 
+    color: #ff007f; 
     font-weight: bold;
-    font-size: 24px; 
+    font-size: 26px; 
     text-align: center; 
-    display: block;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 
